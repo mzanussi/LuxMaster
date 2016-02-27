@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3E8E35BA17E00BD3007D2694 /* BeamCalculationsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E8E35B917E00BD3007D2694 /* BeamCalculationsViewController.m */; };
+		3E969D0A17DFF3CD000D8071 /* DataValidation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E969D0917DFF3CC000D8071 /* DataValidation.m */; };
+		3E969D0D17DFFB11000D8071 /* OhmsLawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E969D0C17DFFB11000D8071 /* OhmsLawViewController.m */; };
+		3E969D1017E0005D000D8071 /* VoltageDropViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E969D0F17E0005D000D8071 /* VoltageDropViewController.m */; };
+		3EA14AF717E01AD90054DFE4 /* ConversionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3EA14AF617E01AD90054DFE4 /* ConversionsViewController.m */; };
+		3EA94CBD17E0249C008B69AB /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EA94CBC17E0249C008B69AB /* Icon.png */; };
+		3EA94CBF17E024A1008B69AB /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3EA94CBE17E024A1008B69AB /* Icon@2x.png */; };
+		4C47264117DE4C040094034D /* LuxMaster.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C47264017DE4C040094034D /* LuxMaster.storyboard */; };
+		4C47264417DE4C450094034D /* LuxMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C47264317DE4C450094034D /* LuxMasterViewController.m */; };
+		4C47264717DE700E0094034D /* TPKeyboardAvoidingScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C47264617DE700E0094034D /* TPKeyboardAvoidingScrollView.m */; };
+		4C47267717DE705A0094034D /* ColoredButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C47264B17DE705A0094034D /* ColoredButton.m */; };
+		4C47267817DE705A0094034D /* ColoredButtonBlack.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C47264D17DE705A0094034D /* ColoredButtonBlack.m */; };
+		4C47267917DE705A0094034D /* ColoredButtonBlue.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C47264F17DE705A0094034D /* ColoredButtonBlue.m */; };
+		4C47267A17DE705A0094034D /* ColoredButtonGreen.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C47265117DE705A0094034D /* ColoredButtonGreen.m */; };
+		4C47267B17DE705A0094034D /* ColoredButtonGrey.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C47265317DE705A0094034D /* ColoredButtonGrey.m */; };
+		4C47267C17DE705A0094034D /* ColoredButtonOrange.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C47265517DE705A0094034D /* ColoredButtonOrange.m */; };
+		4C47267D17DE705A0094034D /* ColoredButtonTan.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C47265717DE705A0094034D /* ColoredButtonTan.m */; };
+		4C47267E17DE705A0094034D /* ColoredButtonWhite.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C47265917DE705A0094034D /* ColoredButtonWhite.m */; };
+		4C47267F17DE705A0094034D /* blackButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C47265B17DE705A0094034D /* blackButton.png */; };
+		4C47268017DE705A0094034D /* blackButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C47265C17DE705A0094034D /* blackButton@2x.png */; };
+		4C47268117DE705A0094034D /* blackButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C47265D17DE705A0094034D /* blackButtonHighlight.png */; };
+		4C47268217DE705A0094034D /* blackButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C47265E17DE705A0094034D /* blackButtonHighlight@2x.png */; };
+		4C47268317DE705A0094034D /* blueButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C47265F17DE705A0094034D /* blueButton.png */; };
+		4C47268417DE705A0094034D /* blueButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C47266017DE705A0094034D /* blueButton@2x.png */; };
+		4C47268517DE705A0094034D /* blueButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C47266117DE705A0094034D /* blueButtonHighlight.png */; };
+		4C47268617DE705A0094034D /* blueButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C47266217DE705A0094034D /* blueButtonHighlight@2x.png */; };
+		4C47268717DE705A0094034D /* greenButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C47266317DE705A0094034D /* greenButton.png */; };
+		4C47268817DE705A0094034D /* greenButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C47266417DE705A0094034D /* greenButton@2x.png */; };
+		4C47268917DE705A0094034D /* greenButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C47266517DE705A0094034D /* greenButtonHighlight.png */; };
+		4C47268A17DE705A0094034D /* greenButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C47266617DE705A0094034D /* greenButtonHighlight@2x.png */; };
+		4C47268B17DE705A0094034D /* greyButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C47266717DE705A0094034D /* greyButton.png */; };
+		4C47268C17DE705A0094034D /* greyButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C47266817DE705A0094034D /* greyButton@2x.png */; };
+		4C47268D17DE705A0094034D /* greyButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C47266917DE705A0094034D /* greyButtonHighlight.png */; };
+		4C47268E17DE705A0094034D /* greyButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C47266A17DE705A0094034D /* greyButtonHighlight@2x.png */; };
+		4C47268F17DE705A0094034D /* orangeButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C47266B17DE705A0094034D /* orangeButton.png */; };
+		4C47269017DE705A0094034D /* orangeButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C47266C17DE705A0094034D /* orangeButton@2x.png */; };
+		4C47269117DE705A0094034D /* orangeButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C47266D17DE705A0094034D /* orangeButtonHighlight.png */; };
+		4C47269217DE705A0094034D /* orangeButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C47266E17DE705A0094034D /* orangeButtonHighlight@2x.png */; };
+		4C47269317DE705A0094034D /* tanButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C47266F17DE705A0094034D /* tanButton.png */; };
+		4C47269417DE705A0094034D /* tanButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C47267017DE705A0094034D /* tanButton@2x.png */; };
+		4C47269517DE705A0094034D /* tanButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C47267117DE705A0094034D /* tanButtonHighlight.png */; };
+		4C47269617DE705A0094034D /* tanButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C47267217DE705A0094034D /* tanButtonHighlight@2x.png */; };
+		4C47269717DE705A0094034D /* whiteButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C47267317DE705A0094034D /* whiteButton.png */; };
+		4C47269817DE705A0094034D /* whiteButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C47267417DE705A0094034D /* whiteButton@2x.png */; };
+		4C47269917DE705A0094034D /* whiteButtonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C47267517DE705A0094034D /* whiteButtonHighlight.png */; };
+		4C47269A17DE705A0094034D /* whiteButtonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C47267617DE705A0094034D /* whiteButtonHighlight@2x.png */; };
+		4C47269D17DE723D0094034D /* PowerFormulaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C47269C17DE723D0094034D /* PowerFormulaViewController.m */; };
+		4CD5CF4217E375D7008636A6 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5CF4117E375D7008636A6 /* Default.png */; };
+		4CD5CF4417E375DB008636A6 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5CF4317E375DB008636A6 /* Default@2x.png */; };
+		4CD5CF4617E375DF008636A6 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CD5CF4517E375DF008636A6 /* Default-568h@2x.png */; };
+		4CE6011A17DE4BA500DF682A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE6011917DE4BA500DF682A /* UIKit.framework */; };
+		4CE6011C17DE4BA500DF682A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE6011B17DE4BA500DF682A /* Foundation.framework */; };
+		4CE6011E17DE4BA500DF682A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CE6011D17DE4BA500DF682A /* CoreGraphics.framework */; };
+		4CE6012417DE4BA500DF682A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4CE6012217DE4BA500DF682A /* InfoPlist.strings */; };
+		4CE6012617DE4BA500DF682A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE6012517DE4BA500DF682A /* main.m */; };
+		4CE6012A17DE4BA500DF682A /* FCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4CE6012917DE4BA500DF682A /* FCAppDelegate.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3E8E35B817E00BD3007D2694 /* BeamCalculationsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BeamCalculationsViewController.h; sourceTree = "<group>"; };
+		3E8E35B917E00BD3007D2694 /* BeamCalculationsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BeamCalculationsViewController.m; sourceTree = "<group>"; };
+		3E969D0817DFF3CC000D8071 /* DataValidation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataValidation.h; sourceTree = "<group>"; };
+		3E969D0917DFF3CC000D8071 /* DataValidation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataValidation.m; sourceTree = "<group>"; };
+		3E969D0B17DFFB11000D8071 /* OhmsLawViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OhmsLawViewController.h; sourceTree = "<group>"; };
+		3E969D0C17DFFB11000D8071 /* OhmsLawViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OhmsLawViewController.m; sourceTree = "<group>"; };
+		3E969D0E17E0005D000D8071 /* VoltageDropViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoltageDropViewController.h; sourceTree = "<group>"; };
+		3E969D0F17E0005D000D8071 /* VoltageDropViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoltageDropViewController.m; sourceTree = "<group>"; };
+		3EA14AF517E01AD90054DFE4 /* ConversionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConversionsViewController.h; sourceTree = "<group>"; };
+		3EA14AF617E01AD90054DFE4 /* ConversionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConversionsViewController.m; sourceTree = "<group>"; };
+		3EA94CBC17E0249C008B69AB /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		3EA94CBE17E024A1008B69AB /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon@2x.png"; sourceTree = "<group>"; };
+		4C47264017DE4C040094034D /* LuxMaster.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LuxMaster.storyboard; sourceTree = "<group>"; };
+		4C47264217DE4C450094034D /* LuxMasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LuxMasterViewController.h; sourceTree = "<group>"; };
+		4C47264317DE4C450094034D /* LuxMasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LuxMasterViewController.m; sourceTree = "<group>"; };
+		4C47264517DE700E0094034D /* TPKeyboardAvoidingScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TPKeyboardAvoidingScrollView.h; sourceTree = "<group>"; };
+		4C47264617DE700E0094034D /* TPKeyboardAvoidingScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TPKeyboardAvoidingScrollView.m; sourceTree = "<group>"; };
+		4C47264A17DE705A0094034D /* ColoredButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredButton.h; sourceTree = "<group>"; };
+		4C47264B17DE705A0094034D /* ColoredButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredButton.m; sourceTree = "<group>"; };
+		4C47264C17DE705A0094034D /* ColoredButtonBlack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredButtonBlack.h; sourceTree = "<group>"; };
+		4C47264D17DE705A0094034D /* ColoredButtonBlack.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredButtonBlack.m; sourceTree = "<group>"; };
+		4C47264E17DE705A0094034D /* ColoredButtonBlue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredButtonBlue.h; sourceTree = "<group>"; };
+		4C47264F17DE705A0094034D /* ColoredButtonBlue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredButtonBlue.m; sourceTree = "<group>"; };
+		4C47265017DE705A0094034D /* ColoredButtonGreen.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredButtonGreen.h; sourceTree = "<group>"; };
+		4C47265117DE705A0094034D /* ColoredButtonGreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredButtonGreen.m; sourceTree = "<group>"; };
+		4C47265217DE705A0094034D /* ColoredButtonGrey.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredButtonGrey.h; sourceTree = "<group>"; };
+		4C47265317DE705A0094034D /* ColoredButtonGrey.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredButtonGrey.m; sourceTree = "<group>"; };
+		4C47265417DE705A0094034D /* ColoredButtonOrange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredButtonOrange.h; sourceTree = "<group>"; };
+		4C47265517DE705A0094034D /* ColoredButtonOrange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredButtonOrange.m; sourceTree = "<group>"; };
+		4C47265617DE705A0094034D /* ColoredButtonTan.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredButtonTan.h; sourceTree = "<group>"; };
+		4C47265717DE705A0094034D /* ColoredButtonTan.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredButtonTan.m; sourceTree = "<group>"; };
+		4C47265817DE705A0094034D /* ColoredButtonWhite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ColoredButtonWhite.h; sourceTree = "<group>"; };
+		4C47265917DE705A0094034D /* ColoredButtonWhite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ColoredButtonWhite.m; sourceTree = "<group>"; };
+		4C47265B17DE705A0094034D /* blackButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackButton.png; sourceTree = "<group>"; };
+		4C47265C17DE705A0094034D /* blackButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackButton@2x.png"; sourceTree = "<group>"; };
+		4C47265D17DE705A0094034D /* blackButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blackButtonHighlight.png; sourceTree = "<group>"; };
+		4C47265E17DE705A0094034D /* blackButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blackButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		4C47265F17DE705A0094034D /* blueButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButton.png; sourceTree = "<group>"; };
+		4C47266017DE705A0094034D /* blueButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueButton@2x.png"; sourceTree = "<group>"; };
+		4C47266117DE705A0094034D /* blueButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueButtonHighlight.png; sourceTree = "<group>"; };
+		4C47266217DE705A0094034D /* blueButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "blueButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		4C47266317DE705A0094034D /* greenButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenButton.png; sourceTree = "<group>"; };
+		4C47266417DE705A0094034D /* greenButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greenButton@2x.png"; sourceTree = "<group>"; };
+		4C47266517DE705A0094034D /* greenButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greenButtonHighlight.png; sourceTree = "<group>"; };
+		4C47266617DE705A0094034D /* greenButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greenButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		4C47266717DE705A0094034D /* greyButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greyButton.png; sourceTree = "<group>"; };
+		4C47266817DE705A0094034D /* greyButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greyButton@2x.png"; sourceTree = "<group>"; };
+		4C47266917DE705A0094034D /* greyButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = greyButtonHighlight.png; sourceTree = "<group>"; };
+		4C47266A17DE705A0094034D /* greyButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "greyButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		4C47266B17DE705A0094034D /* orangeButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeButton.png; sourceTree = "<group>"; };
+		4C47266C17DE705A0094034D /* orangeButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orangeButton@2x.png"; sourceTree = "<group>"; };
+		4C47266D17DE705A0094034D /* orangeButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = orangeButtonHighlight.png; sourceTree = "<group>"; };
+		4C47266E17DE705A0094034D /* orangeButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "orangeButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		4C47266F17DE705A0094034D /* tanButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tanButton.png; sourceTree = "<group>"; };
+		4C47267017DE705A0094034D /* tanButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tanButton@2x.png"; sourceTree = "<group>"; };
+		4C47267117DE705A0094034D /* tanButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tanButtonHighlight.png; sourceTree = "<group>"; };
+		4C47267217DE705A0094034D /* tanButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tanButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		4C47267317DE705A0094034D /* whiteButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButton.png; sourceTree = "<group>"; };
+		4C47267417DE705A0094034D /* whiteButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteButton@2x.png"; sourceTree = "<group>"; };
+		4C47267517DE705A0094034D /* whiteButtonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whiteButtonHighlight.png; sourceTree = "<group>"; };
+		4C47267617DE705A0094034D /* whiteButtonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "whiteButtonHighlight@2x.png"; sourceTree = "<group>"; };
+		4C47269B17DE723D0094034D /* PowerFormulaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PowerFormulaViewController.h; sourceTree = "<group>"; };
+		4C47269C17DE723D0094034D /* PowerFormulaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PowerFormulaViewController.m; sourceTree = "<group>"; };
+		4CD5CF4117E375D7008636A6 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		4CD5CF4317E375DB008636A6 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		4CD5CF4517E375DF008636A6 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		4CE6011617DE4BA500DF682A /* Lux Master.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lux Master.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CE6011917DE4BA500DF682A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4CE6011B17DE4BA500DF682A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4CE6011D17DE4BA500DF682A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4CE6012117DE4BA500DF682A /* Lux Master-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Lux Master-Info.plist"; sourceTree = "<group>"; };
+		4CE6012317DE4BA500DF682A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4CE6012517DE4BA500DF682A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4CE6012717DE4BA500DF682A /* Lux Master-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Lux Master-Prefix.pch"; sourceTree = "<group>"; };
+		4CE6012817DE4BA500DF682A /* FCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FCAppDelegate.h; sourceTree = "<group>"; };
+		4CE6012917DE4BA500DF682A /* FCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FCAppDelegate.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CE6011317DE4BA500DF682A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE6011A17DE4BA500DF682A /* UIKit.framework in Frameworks */,
+				4CE6011C17DE4BA500DF682A /* Foundation.framework in Frameworks */,
+				4CE6011E17DE4BA500DF682A /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C47264817DE705A0094034D /* iOSButtons */ = {
+			isa = PBXGroup;
+			children = (
+				4C47264917DE705A0094034D /* Classes */,
+				4C47265A17DE705A0094034D /* Resources */,
+			);
+			path = iOSButtons;
+			sourceTree = "<group>";
+		};
+		4C47264917DE705A0094034D /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4C47264A17DE705A0094034D /* ColoredButton.h */,
+				4C47264B17DE705A0094034D /* ColoredButton.m */,
+				4C47264C17DE705A0094034D /* ColoredButtonBlack.h */,
+				4C47264D17DE705A0094034D /* ColoredButtonBlack.m */,
+				4C47264E17DE705A0094034D /* ColoredButtonBlue.h */,
+				4C47264F17DE705A0094034D /* ColoredButtonBlue.m */,
+				4C47265017DE705A0094034D /* ColoredButtonGreen.h */,
+				4C47265117DE705A0094034D /* ColoredButtonGreen.m */,
+				4C47265217DE705A0094034D /* ColoredButtonGrey.h */,
+				4C47265317DE705A0094034D /* ColoredButtonGrey.m */,
+				4C47265417DE705A0094034D /* ColoredButtonOrange.h */,
+				4C47265517DE705A0094034D /* ColoredButtonOrange.m */,
+				4C47265617DE705A0094034D /* ColoredButtonTan.h */,
+				4C47265717DE705A0094034D /* ColoredButtonTan.m */,
+				4C47265817DE705A0094034D /* ColoredButtonWhite.h */,
+				4C47265917DE705A0094034D /* ColoredButtonWhite.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4C47265A17DE705A0094034D /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4C47265B17DE705A0094034D /* blackButton.png */,
+				4C47265C17DE705A0094034D /* blackButton@2x.png */,
+				4C47265D17DE705A0094034D /* blackButtonHighlight.png */,
+				4C47265E17DE705A0094034D /* blackButtonHighlight@2x.png */,
+				4C47265F17DE705A0094034D /* blueButton.png */,
+				4C47266017DE705A0094034D /* blueButton@2x.png */,
+				4C47266117DE705A0094034D /* blueButtonHighlight.png */,
+				4C47266217DE705A0094034D /* blueButtonHighlight@2x.png */,
+				4C47266317DE705A0094034D /* greenButton.png */,
+				4C47266417DE705A0094034D /* greenButton@2x.png */,
+				4C47266517DE705A0094034D /* greenButtonHighlight.png */,
+				4C47266617DE705A0094034D /* greenButtonHighlight@2x.png */,
+				4C47266717DE705A0094034D /* greyButton.png */,
+				4C47266817DE705A0094034D /* greyButton@2x.png */,
+				4C47266917DE705A0094034D /* greyButtonHighlight.png */,
+				4C47266A17DE705A0094034D /* greyButtonHighlight@2x.png */,
+				4C47266B17DE705A0094034D /* orangeButton.png */,
+				4C47266C17DE705A0094034D /* orangeButton@2x.png */,
+				4C47266D17DE705A0094034D /* orangeButtonHighlight.png */,
+				4C47266E17DE705A0094034D /* orangeButtonHighlight@2x.png */,
+				4C47266F17DE705A0094034D /* tanButton.png */,
+				4C47267017DE705A0094034D /* tanButton@2x.png */,
+				4C47267117DE705A0094034D /* tanButtonHighlight.png */,
+				4C47267217DE705A0094034D /* tanButtonHighlight@2x.png */,
+				4C47267317DE705A0094034D /* whiteButton.png */,
+				4C47267417DE705A0094034D /* whiteButton@2x.png */,
+				4C47267517DE705A0094034D /* whiteButtonHighlight.png */,
+				4C47267617DE705A0094034D /* whiteButtonHighlight@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4CE6010D17DE4BA500DF682A = {
+			isa = PBXGroup;
+			children = (
+				4CD5CF4517E375DF008636A6 /* Default-568h@2x.png */,
+				4CD5CF4317E375DB008636A6 /* Default@2x.png */,
+				4CD5CF4117E375D7008636A6 /* Default.png */,
+				3EA94CBE17E024A1008B69AB /* Icon@2x.png */,
+				3EA94CBC17E0249C008B69AB /* Icon.png */,
+				4CE6011F17DE4BA500DF682A /* Lux Master */,
+				4CE6011817DE4BA500DF682A /* Frameworks */,
+				4CE6011717DE4BA500DF682A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CE6011717DE4BA500DF682A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CE6011617DE4BA500DF682A /* Lux Master.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CE6011817DE4BA500DF682A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4CE6011917DE4BA500DF682A /* UIKit.framework */,
+				4CE6011B17DE4BA500DF682A /* Foundation.framework */,
+				4CE6011D17DE4BA500DF682A /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4CE6011F17DE4BA500DF682A /* Lux Master */ = {
+			isa = PBXGroup;
+			children = (
+				3E8E35B817E00BD3007D2694 /* BeamCalculationsViewController.h */,
+				3E8E35B917E00BD3007D2694 /* BeamCalculationsViewController.m */,
+				3EA14AF517E01AD90054DFE4 /* ConversionsViewController.h */,
+				3EA14AF617E01AD90054DFE4 /* ConversionsViewController.m */,
+				3E969D0817DFF3CC000D8071 /* DataValidation.h */,
+				3E969D0917DFF3CC000D8071 /* DataValidation.m */,
+				4CE6012817DE4BA500DF682A /* FCAppDelegate.h */,
+				4CE6012917DE4BA500DF682A /* FCAppDelegate.m */,
+				4C47264017DE4C040094034D /* LuxMaster.storyboard */,
+				4C47264217DE4C450094034D /* LuxMasterViewController.h */,
+				4C47264317DE4C450094034D /* LuxMasterViewController.m */,
+				3E969D0B17DFFB11000D8071 /* OhmsLawViewController.h */,
+				3E969D0C17DFFB11000D8071 /* OhmsLawViewController.m */,
+				4C47269B17DE723D0094034D /* PowerFormulaViewController.h */,
+				4C47269C17DE723D0094034D /* PowerFormulaViewController.m */,
+				3E969D0E17E0005D000D8071 /* VoltageDropViewController.h */,
+				3E969D0F17E0005D000D8071 /* VoltageDropViewController.m */,
+				4CE6012017DE4BA500DF682A /* Supporting Files */,
+			);
+			path = "Lux Master";
+			sourceTree = "<group>";
+		};
+		4CE6012017DE4BA500DF682A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C47264817DE705A0094034D /* iOSButtons */,
+				4CE6012117DE4BA500DF682A /* Lux Master-Info.plist */,
+				4CE6012217DE4BA500DF682A /* InfoPlist.strings */,
+				4CE6012517DE4BA500DF682A /* main.m */,
+				4CE6012717DE4BA500DF682A /* Lux Master-Prefix.pch */,
+				4C47264517DE700E0094034D /* TPKeyboardAvoidingScrollView.h */,
+				4C47264617DE700E0094034D /* TPKeyboardAvoidingScrollView.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CE6011517DE4BA500DF682A /* Lux Master */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CE6013317DE4BA500DF682A /* Build configuration list for PBXNativeTarget "Lux Master" */;
+			buildPhases = (
+				4CE6011217DE4BA500DF682A /* Sources */,
+				4CE6011317DE4BA500DF682A /* Frameworks */,
+				4CE6011417DE4BA500DF682A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Lux Master";
+			productName = "Lux Master";
+			productReference = 4CE6011617DE4BA500DF682A /* Lux Master.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CE6010E17DE4BA500DF682A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = FC;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Fat Chile";
+			};
+			buildConfigurationList = 4CE6011117DE4BA500DF682A /* Build configuration list for PBXProject "Lux Master" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4CE6010D17DE4BA500DF682A;
+			productRefGroup = 4CE6011717DE4BA500DF682A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CE6011517DE4BA500DF682A /* Lux Master */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CE6011417DE4BA500DF682A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE6012417DE4BA500DF682A /* InfoPlist.strings in Resources */,
+				4C47264117DE4C040094034D /* LuxMaster.storyboard in Resources */,
+				4C47267F17DE705A0094034D /* blackButton.png in Resources */,
+				4C47268017DE705A0094034D /* blackButton@2x.png in Resources */,
+				4C47268117DE705A0094034D /* blackButtonHighlight.png in Resources */,
+				4C47268217DE705A0094034D /* blackButtonHighlight@2x.png in Resources */,
+				4C47268317DE705A0094034D /* blueButton.png in Resources */,
+				4C47268417DE705A0094034D /* blueButton@2x.png in Resources */,
+				4C47268517DE705A0094034D /* blueButtonHighlight.png in Resources */,
+				4C47268617DE705A0094034D /* blueButtonHighlight@2x.png in Resources */,
+				4C47268717DE705A0094034D /* greenButton.png in Resources */,
+				4C47268817DE705A0094034D /* greenButton@2x.png in Resources */,
+				4C47268917DE705A0094034D /* greenButtonHighlight.png in Resources */,
+				4C47268A17DE705A0094034D /* greenButtonHighlight@2x.png in Resources */,
+				4C47268B17DE705A0094034D /* greyButton.png in Resources */,
+				4C47268C17DE705A0094034D /* greyButton@2x.png in Resources */,
+				4C47268D17DE705A0094034D /* greyButtonHighlight.png in Resources */,
+				4C47268E17DE705A0094034D /* greyButtonHighlight@2x.png in Resources */,
+				4C47268F17DE705A0094034D /* orangeButton.png in Resources */,
+				4C47269017DE705A0094034D /* orangeButton@2x.png in Resources */,
+				4C47269117DE705A0094034D /* orangeButtonHighlight.png in Resources */,
+				4C47269217DE705A0094034D /* orangeButtonHighlight@2x.png in Resources */,
+				4C47269317DE705A0094034D /* tanButton.png in Resources */,
+				4C47269417DE705A0094034D /* tanButton@2x.png in Resources */,
+				4C47269517DE705A0094034D /* tanButtonHighlight.png in Resources */,
+				4C47269617DE705A0094034D /* tanButtonHighlight@2x.png in Resources */,
+				4C47269717DE705A0094034D /* whiteButton.png in Resources */,
+				4C47269817DE705A0094034D /* whiteButton@2x.png in Resources */,
+				4C47269917DE705A0094034D /* whiteButtonHighlight.png in Resources */,
+				4C47269A17DE705A0094034D /* whiteButtonHighlight@2x.png in Resources */,
+				3EA94CBD17E0249C008B69AB /* Icon.png in Resources */,
+				3EA94CBF17E024A1008B69AB /* Icon@2x.png in Resources */,
+				4CD5CF4217E375D7008636A6 /* Default.png in Resources */,
+				4CD5CF4417E375DB008636A6 /* Default@2x.png in Resources */,
+				4CD5CF4617E375DF008636A6 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CE6011217DE4BA500DF682A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CE6012617DE4BA500DF682A /* main.m in Sources */,
+				4CE6012A17DE4BA500DF682A /* FCAppDelegate.m in Sources */,
+				4C47264417DE4C450094034D /* LuxMasterViewController.m in Sources */,
+				4C47264717DE700E0094034D /* TPKeyboardAvoidingScrollView.m in Sources */,
+				4C47267717DE705A0094034D /* ColoredButton.m in Sources */,
+				4C47267817DE705A0094034D /* ColoredButtonBlack.m in Sources */,
+				4C47267917DE705A0094034D /* ColoredButtonBlue.m in Sources */,
+				4C47267A17DE705A0094034D /* ColoredButtonGreen.m in Sources */,
+				4C47267B17DE705A0094034D /* ColoredButtonGrey.m in Sources */,
+				4C47267C17DE705A0094034D /* ColoredButtonOrange.m in Sources */,
+				4C47267D17DE705A0094034D /* ColoredButtonTan.m in Sources */,
+				4C47267E17DE705A0094034D /* ColoredButtonWhite.m in Sources */,
+				4C47269D17DE723D0094034D /* PowerFormulaViewController.m in Sources */,
+				3E969D0A17DFF3CD000D8071 /* DataValidation.m in Sources */,
+				3E969D0D17DFFB11000D8071 /* OhmsLawViewController.m in Sources */,
+				3E969D1017E0005D000D8071 /* VoltageDropViewController.m in Sources */,
+				3E8E35BA17E00BD3007D2694 /* BeamCalculationsViewController.m in Sources */,
+				3EA14AF717E01AD90054DFE4 /* ConversionsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4CE6012217DE4BA500DF682A /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CE6012317DE4BA500DF682A /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CE6013117DE4BA500DF682A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4CE6013217DE4BA500DF682A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CE6013417DE4BA500DF682A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lux Master/Lux Master-Prefix.pch";
+				INFOPLIST_FILE = "Lux Master/Lux Master-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4CE6013517DE4BA500DF682A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Michael Zanussi (MYE43VXUQ7)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Michael Zanussi (MYE43VXUQ7)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Lux Master/Lux Master-Prefix.pch";
+				INFOPLIST_FILE = "Lux Master/Lux Master-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "169AA06F-49E1-4ACA-849A-BA8C6DAF7FEB";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "169AA06F-49E1-4ACA-849A-BA8C6DAF7FEB";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CE6011117DE4BA500DF682A /* Build configuration list for PBXProject "Lux Master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE6013117DE4BA500DF682A /* Debug */,
+				4CE6013217DE4BA500DF682A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CE6013317DE4BA500DF682A /* Build configuration list for PBXNativeTarget "Lux Master" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CE6013417DE4BA500DF682A /* Debug */,
+				4CE6013517DE4BA500DF682A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CE6010E17DE4BA500DF682A /* Project object */;
+}
